@@ -1,0 +1,11 @@
+import React from 'react';
+import { Button } from 'react-bootstrap';
+import About from '';
+
+export const AboutButton = () => {
+    return (
+        <div className="button">
+            <Button target="_blank" href="../pages/AboutPage" className="btn btn-dark btn-lg">HERE</Button>
+        </div>
+    );
+};
